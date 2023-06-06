@@ -75,7 +75,7 @@ if __name__ == '__main__':
         style_dim = config['gen']['style_dim']
         trainer = aclgan_Trainer(config)
     else:
-        sys.exit("Only support aclgan)
+        sys.exit("Only support aclgan")
 
 
     if opts.trainer == 'aclgan':
